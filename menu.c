@@ -19,7 +19,7 @@ void execute_instruction_code(int instruction_code, int* numbers, int numbers_si
             printf("%d\n", multi_before_and_after_negative(numbers, numbers_size));
             break;
         default:
-            printf("Данные не корректны\n");
+            printf("Данные некорректны\n");
             break;
     }
 }
